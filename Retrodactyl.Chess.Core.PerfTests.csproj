@@ -3,6 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/digital-synapse/Retrodactyl.Chess.Core.PerfTests</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/digital-synapse/Retrodactyl.Chess.Core.PerfTests</RepositoryUrl>
+    <PackageTags>Retrodactyl</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +17,13 @@
   <ItemGroup>
     <ProjectReference Include="..\Retrodactyl.Chess.Core\Retrodactyl.Chess.Core.csproj" />
     <ProjectReference Include="..\Retrodactyl.Extensions.DotNet\Retrodactyl.Extensions.DotNet.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
