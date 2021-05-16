@@ -8,6 +8,7 @@
     <PackageProjectUrl>https://github.com/digital-synapse/Retrodactyl.Chess.Core.PerfTests</PackageProjectUrl>
     <RepositoryUrl>https://github.com/digital-synapse/Retrodactyl.Chess.Core.PerfTests</RepositoryUrl>
     <PackageTags>Retrodactyl</PackageTags>
+    <Authors>digital-synapse</Authors>
   </PropertyGroup>
 
   <ItemGroup>
